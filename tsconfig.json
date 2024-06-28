@@ -1,0 +1,3 @@
+{
+  "extends": "@flappy-bird/typescript-config/base.json"
+}

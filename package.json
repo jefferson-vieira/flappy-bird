@@ -1,0 +1,24 @@
+{
+  "name": "flappy-bird-limpo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "format": "prettier --write \"{apps,packages}/**/*.{ts,tsx,md,json}\"",
+    "lint": "turbo lint"
+  },
+  "devDependencies": {
+    "@flappy-bird/eslint-config": "*",
+    "@flappy-bird/typescript-config": "*",
+    "prettier": "3.1.0",
+    "turbo": "2.0.5"
+  },
+  "packageManager": "npm@10.1.0",
+  "engines": {
+    "node": "20.x"
+  }
+}
